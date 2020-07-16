@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FirstGameWithMatt",
+			"Path": "C:\\Users\\taisp\\Documents\\unrealgames\\gamewithmatt\\FirstGameWithMatt\\Source\\FirstGameWithMatt.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FirstGameWithMattEditor",
+			"Path": "C:\\Users\\taisp\\Documents\\unrealgames\\gamewithmatt\\FirstGameWithMatt\\Source\\FirstGameWithMattEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
