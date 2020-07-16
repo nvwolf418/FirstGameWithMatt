@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeFirstGameWithMattProjectile() {}
 	FIRSTGAMEWITHMATT_API UClass* Z_Construct_UClass_AFirstGameWithMattProjectile();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_FirstGameWithMatt();
-	FIRSTGAMEWITHMATT_API UFunction* Z_Construct_UFunction_AFirstGameWithMattProjectile_OnHit();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -25,6 +24,18 @@ void EmptyLinkFunctionForGeneratedCodeFirstGameWithMattProjectile() {}
 	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AFirstGameWithMattProjectile::execOnHit)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp);
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp);
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse);
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit);
+		P_NATIVE_END;
+	}
 	void AFirstGameWithMattProjectile::StaticRegisterNativesAFirstGameWithMattProjectile()
 	{
 		UClass* Class = AFirstGameWithMattProjectile::StaticClass();
@@ -195,7 +206,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstGameWithMattProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstGameWithMattProjectile, 386440488);
+	IMPLEMENT_CLASS(AFirstGameWithMattProjectile, 2259171101);
 	template<> FIRSTGAMEWITHMATT_API UClass* StaticClass<AFirstGameWithMattProjectile>()
 	{
 		return AFirstGameWithMattProjectile::StaticClass();

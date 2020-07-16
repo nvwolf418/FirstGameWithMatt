@@ -1,4 +1,5 @@
-/MANIFEST:NO
+/MANIFEST:EMBED
+/MANIFESTINPUT:"C:\Program Files\Epic Games\UE_4.25\Engine\Build\Windows\Resources\Default-Win64.manifest"
 /NOLOGO
 /DEBUG
 /errorReport:prompt
@@ -68,11 +69,11 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-"C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-"C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
-"C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\HeadMountedDisplay\UE4Editor-HeadMountedDisplay.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\HeadMountedDisplay\UE4Editor-HeadMountedDisplay.lib"
 /OUT:"C:\Users\taisp\Documents\unrealgames\gamewithmatt\FirstGameWithMatt\Binaries\Win64\UE4Editor-FirstGameWithMatt.dll"
 /IMPLIB:"C:\Users\taisp\Documents\unrealgames\gamewithmatt\FirstGameWithMatt\Intermediate\Build\Win64\UE4Editor\Development\FirstGameWithMatt\UE4Editor-FirstGameWithMatt.suppressed.lib"
 /PDB:"C:\Users\taisp\Documents\unrealgames\gamewithmatt\FirstGameWithMatt\Binaries\Win64\UE4Editor-FirstGameWithMatt.pdb"

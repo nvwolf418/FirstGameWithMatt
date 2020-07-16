@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -310,7 +310,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstGameWithMattCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstGameWithMattCharacter, 1932428000);
+	IMPLEMENT_CLASS(AFirstGameWithMattCharacter, 1941015677);
 	template<> FIRSTGAMEWITHMATT_API UClass* StaticClass<AFirstGameWithMattCharacter>()
 	{
 		return AFirstGameWithMattCharacter::StaticClass();
